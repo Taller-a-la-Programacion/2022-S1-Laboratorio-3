@@ -20,9 +20,9 @@ Escriba una función sumaImparesPares (lista1 , lista2) que reciba dos lista de 
 ```python
 >>> sumaImparesPares([0,2,3,4], [4, 8, 6, 0])
 [13, 14]
->>> suma([10, 0], [100, 2])
+>>> sumaImparesPares([10, 0], [100, 2])
 [110, 2]
- >>> suma([1,2], "dos")
+ >>> sumaImparesPares([1,2], "dos")
  "Error: segundo argumento debe ser entero"
  ```
 
