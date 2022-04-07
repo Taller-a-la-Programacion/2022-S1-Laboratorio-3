@@ -5,13 +5,13 @@
 - Debe realizar la siguiente función con recursión de cola
 
 ## Ejercicio 1. Valor 20 puntos.
-Escriba una función llamada **eliminarSegundaRepeticion** que reciba como parámetro de entrada una lista con diferentes elementos es decir enteros, flotantes y cadenas de texto, y eliminar si un elemento de esta lista aparece más de 2 veces. Hacer uso de la recursión y evitar funciones built-in.
+Escriba una función llamada **eliminarRepetidos** que reciba como parámetro de entrada una lista con diferentes elementos es decir enteros, flotantes y cadenas de texto, y eliminar si un elemento de esta lista aparece más de una vez. Hacer uso de la iteración y evitar funciones built-in.
 
 ```python
->>> eliminarSegundaRepeticion( [12, 78, 12, 0, 5.2, "abc", 0, 12, 5.2, 12] )
-[12, 78, 12, 0, 5.2, "abc", 0, 5.2]
->>> eliminarSegundaRepeticion( [12, 5.2, 12] )
-[12, 5.2, 12]
+>>> eliminarRepetidos( [12, 78, 12, 0, 5.2, "abc", 0, 12, 5.2, 12] )
+[78, "abc"]
+>>> eliminarRepetidos( [12, 5.2, 12] )
+[5.2]
 ```
 
 ## Ejercicio 2. Valor 20 puntos.
